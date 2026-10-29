@@ -5,7 +5,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "regexSubstitution": "https://nitter.cf\\2"
+        "regexSubstitution": "https://xitter.cf\\2"
       }
     },
     "condition": {

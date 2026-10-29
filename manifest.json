@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "X to Nitter Redirect",
+  "name": "X to Xitter Redirect",
   "version": "1.0.0",
-  "description": "Opens every x.com (and twitter.com) link on nitter.cf instead.",
+  "description": "Opens every x.com (and twitter.com) link on xitter.cf instead.",
   "permissions": ["declarativeNetRequest"],
   "host_permissions": [
     "*://x.com/*",
@@ -13,7 +13,7 @@
   "declarative_net_request": {
     "rule_resources": [
       {
-        "id": "nitter_redirect",
+        "id": "redirect_rules",
         "enabled": true,
         "path": "rules.json"
       }
